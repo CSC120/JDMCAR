@@ -1,37 +1,105 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>RX7</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-You can use the [editor on GitHub](https://github.com/CSC120/JDMCAR/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+body {
+   font-family: Verdana, Verdana, Tahoma;
+  
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+header {
+  background-color: blue ;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+nav ul {
+  list-style-type: ordered lists;
+  padding: 0;
+}
 
-1. Numbered
-2. List
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: grey ;
+  height: 300px; 
+}
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CSC120/JDMCAR/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+<header>
+  <h2>JDM CARS</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="Index.html">INTRO</a></li>
+      <li><a href="R35.html">NISSAN R35 GTR</a></li>
+      <li><a href="SUPRA.html">TOYOTA SUPRA</a></li>
+      <li><a href="RX7.html">MAZDA RX-7</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>MAZDA RX-7</h1>
+    <p>The 3rd generation Mazda RX-7, identified by chassis code FD, was produced between 1992 and 2002, although it was only available in the US from 1993 through 1995. This generation was a departure for the model, as it was only offered with a twin-turbocharged engine. The '13B' 1.3L Wankel rotary engine was fitted with twin turbos and now produced 255hp, and yet the car was lighter (though slightly wider) than the previous FC Generation. </p>
+    <p> Racing versions of the first-generation RX-7 were entered at the prestigious 24 hours of Le Mans endurance race. The first outing for the car, equipped with a 13B engine, failed by less than one second to qualify in 1979.</p>
+  </article>
+</section>
+
+<footer>
+<img src="https://i.ibb.co/b3kTPPH/NDF-2602.jpg">
+</footer>
+
+</body>
+</html>
+
+
